@@ -31,6 +31,7 @@ const Navbar = () => {
                         width="148"
                         height="25"
                         xmlns="http://www.w3.org/2000/svg"
+                        className="cursor-pointer"
                     >
                         <g fill="none" fill-rule="evenodd">
                             <path
