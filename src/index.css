@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+    --color-p-b: hsl(231, 69%, 60%);
+    --color-p-r: hsl(0, 94%, 66%);
+    --color-n-g: hsl(0, 0%, 97%);
+    --color-n-b: hsl(229, 31%, 21%);
+    --font-rubik: "Rubik", sans-serif;
+}
+
+@layer utilities {
+    .hero {
+        @apply max-w-[1110px] mx-auto
+    }
+    .wrapper {
+        @apply max-w-[1110px] mx-auto px-8 sm:px-16 lg:px-0;
+    }
+}
